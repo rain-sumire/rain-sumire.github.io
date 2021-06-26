@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Hugo 0.83.1" />
+  
+  <meta name="description" content="“这几天”发生的事情还真不少…… 首先是心理状态不太稳定，经常忙着就忘记吃药了。我大概是需要人照顾的类型，但这不表明我就对女朋友有需求了……身边的朋友们都很关心我，这里非常非常感谢特别的echo桑，光量子前辈以及可爱温柔体贴的David。是你们无微不至的关怀让我的空虚感得到化解。 其次就是讲讲我做些什么事吧……复习网络的时候我看完了户根勤的《网络是怎样链接的》，对网络链接的大概有了印象，然后再看了著名的自顶向下，跟了CS144的课程，把80%的内容给过完了，其中书里的RFC文档还有论文期刊我也有涉猎，收获真的不小…… 复习数据库系统的时候我并没有再去看那本厚重的《数据库系统概念》，重新看了一下15-445的notes然后就开始做之前没有做完的Project 1，这个第一部分是LRU Replacer的，第二部分是Buffer Pool Manager，两部分加起来花费了四天的时间，写Lab之前先查看了相关的数据结构知识，去了leetcode看LRU Replacer的实现过程，并实际动手操作了一番，接着又重点看了C&#43;&#43; Primer关于Buffer Pool Manager这部分用到的知识，回顾了15-445中关于storage以及buffer pool的知识点，在短短的几个小时到一两天之内多次有了醍醐灌顶的感觉，真是太美妙了。这期间，也不能缺少了大家的陪伴，感谢。当然写Lab最终还是要测试的，写完LRU Replacer的时候看见“OK”“PASSED”的字眼还是很开心的，又有了当初用Golang在填补Talent Plan课程的感觉了，Amazing。到了Buffer Pool Manager也是有惊无险，说到本地的测试，实际上是遇到了坑点的，就是测试点本身是不完整的，要使用gtest的命令调整为测试当前的项目才行。 这一波刚刚解决，下一波又来了。我去到了15-445官网给出的gradescope去测试我写好的Project 1代码。满分是160分的，可是第一次提交居然只有十分，我仔细看了错误，有十几个测试点是在本地都通过了却在gradescope给FAIL了，我又往下看—-震惊！原来是提交的测试文件也要按照目录来，不能多也不能少。调整好目录，重新上传—-整个界面开始变成“PASSED”的绿色，SCORE下面显示着160/160，我知道了，看来这波是终于…… 我很紧张，我很兴奋，我在狂喜，回过头再看看程序，踩了不少坑，也填了不少坑，太好了（">
+  <link rel="stylesheet" href="https://rain-sumire.github.io/css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+  
+  
+  <link rel="stylesheet" href="https://rain-sumire.github.io/css/cayman.ea0e967413f3851071cc8ace3621bc4205fe8fa79b2abe3d7bf94ff2841f0d47.css">
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+  <title>这几天在做什么 | Categories</title>
+</head>
+
+<body>
+  <section class="page-header">
+  <h1 class="project-name">
+    Shaymin&rsquo;s Blog
+  </h1>
+  <h2 class="project-tagline">
+    Talk is cheap, show your code.
+  </h2>
+  <nav>
+    
+    
+      
+      
+      
+      
+      <a href="/" class="btn">Blog</a>
+    
+      
+      
+      
+      
+      <a href="/tags/" class="btn">Tags</a>
+    
+      
+      
+      
+      
+      <a href="/about/" class="btn">About</a>
+    
+      
+      
+      
+      
+      <a href="/index.xml" class="btn">RSS</a>
+    
+  </nav>
+</section>
+
+  <section class="main-content">
+    
+  <h1>这几天在做什么</h1>
+  <div>
+    
+    <strong>Publish date: </strong>2021-06-26
+  </div>
+  
+  
+  <p>“这几天”发生的事情还真不少……
+首先是心理状态不太稳定，经常忙着就忘记吃药了。我大概是需要人照顾的类型，但这不表明我就对女朋友有需求了……身边的朋友们都很关心我，这里非常非常感谢特别的echo桑，光量子前辈以及可爱温柔体贴的David。是你们无微不至的关怀让我的空虚感得到化解。
+其次就是讲讲我做些什么事吧……复习网络的时候我看完了户根勤的《网络是怎样链接的》，对网络链接的大概有了印象，然后再看了著名的自顶向下，跟了CS144的课程，把80%的内容给过完了，其中书里的RFC文档还有论文期刊我也有涉猎，收获真的不小……
+复习数据库系统的时候我并没有再去看那本厚重的《数据库系统概念》，重新看了一下15-445的notes然后就开始做之前没有做完的Project 1，这个第一部分是LRU Replacer的，第二部分是Buffer Pool Manager，两部分加起来花费了四天的时间，写Lab之前先查看了相关的数据结构知识，去了leetcode看LRU Replacer的实现过程，并实际动手操作了一番，接着又重点看了C++ Primer关于Buffer Pool Manager这部分用到的知识，回顾了15-445中关于storage以及buffer pool的知识点，在短短的几个小时到一两天之内多次有了醍醐灌顶的感觉，真是太美妙了。这期间，也不能缺少了大家的陪伴，感谢。当然写Lab最终还是要测试的，写完LRU Replacer的时候看见“OK”“PASSED”的字眼还是很开心的，又有了当初用Golang在填补Talent Plan课程的感觉了，Amazing。到了Buffer Pool Manager也是有惊无险，说到本地的测试，实际上是遇到了坑点的，就是测试点本身是不完整的，要使用gtest的命令调整为测试当前的项目才行。
+这一波刚刚解决，下一波又来了。我去到了15-445官网给出的gradescope去测试我写好的Project 1代码。满分是160分的，可是第一次提交居然只有十分，我仔细看了错误，有十几个测试点是在本地都通过了却在gradescope给FAIL了，我又往下看&mdash;-震惊！原来是提交的测试文件也要按照目录来，不能多也不能少。调整好目录，重新上传&mdash;-整个界面开始变成“PASSED”的绿色，SCORE下面显示着160/160，我知道了，看来这波是终于…… 我很紧张，我很兴奋，我在狂喜，回过头再看看程序，踩了不少坑，也填了不少坑，太好了（</p>
+
+  
+
+  
+
+
+
+    <footer class="site-footer">
+  <span class="site-footer-credits">
+    Made with <a href="https://gohugo.io/">Hugo</a>. Themed by <a href="https://github.com/zwbetz-gh/cayman-hugo-theme">Cayman</a>. Deployed to <a href="https://www.netlify.com/">Netlify</a>.
+  </span>
+</footer>
+
+  </section>
+  
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-123456789-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Hugo 0.83.1" />
+  
+  <meta name="description" content="2020年是充满挑战的一年，这决定了2021年也是人类历史上注定不平凡的一年，大家懂得了相亲相爱，共同合作的重要性。
+现在，即将进入7月。作为SE魔法一年级的大学生我也即将迎来自己的第一个暑假。名义上的“暑假”其实是学生们自由支配时间的管理符。经过了一年的学习收获了什么呢？也许你的行为是上课认真听讲按照课程安排完成课程考试，并且度过一个轻松愉快的假期。你亦或许是一个有远近的人，开始学习魔法二年级的知识了，由于对于未来的未知充满了疑惑，因此在社区和群聊开始地毯式地询问先人方法。作为学习传统魔法与现代魔法的学生，你可能从始至终都在阅读CS的相关知识，想在AI，Systems，Theory等领域取得非凡的成就，但也有可能是跨领域学科的学者，你对现代魔法的奇妙充满了好奇，你想利用旺盛的精力去学习一些CS知识为自己所用，也有可能你纯粹是为了当一个过路者只要好好跟着老师走，好学生最后也会有一个不错的结果。
+我作为一个对传统魔法与现代魔法充满热满的魔法学徒，自然不是属于后者的类型。在旅行回家的路上，跟我一途还有装着魔法书籍的旅行箱。旅行箱是一个多层的旅行大巴，如果从侧面看，从上到下依次是：SICP，天池ML学习指南，CS:APP，C programming language，以及这一学期没有写完懂得15-445 &amp; CS:APP的lab的纸质notes。 如果按照任务的优先级排序的话，则是CS：APP以及15-445的lab，然后是SICP以及阿里云天池ML（也许即将饱受花书和西瓜书的折磨）。
+通过这一学期的学习，可以看出来15-445带给人的收获是巨大的，而且还有很大的挖掘空间，我在学习数据库系统的同时还学习了数据库的storage，学习了缓存的LRU replacer以及pool buffer manager；学习了hash table的hash function和hash scheme；学习了线程进程以及并发控制的算法的理论知识。其实一部分知识是来自CSAPP的，因此不能说在一个方向上冲就是明智之举。目前我完成了最基础的、用于上手数据库设计的两个lab，在特别是pool buffer manager的lab分数，gradescope上面我取得了160分的好成绩（满分160分）。这对于我来说是一次很大的激励，我经常对于自己没有花费大量时间而取得的某些成果感到心虚，因此这只能说是激励而不是成功。CSAPP目前才到了chapter3，可以说是毫无进展，很失败，对于这样一本酷似魔法书的启动书籍我不敢怠慢。
+SICP是一本真正意义上的让你入门魔法基础的魔法书，可以说是所有学习魔法的学生的必读书籍。使用Lisp（Scheme）描述而不是晦涩的C&#43;&#43;自然是有它的道理在，程序和数据这种单纯的抽象是如何构成魔法元素的？暑假继续阅读SICP，相信会有答案。">
+  <link rel="stylesheet" href="https://rain-sumire.github.io/css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+  
+  
+  <link rel="stylesheet" href="https://rain-sumire.github.io/css/cayman.ea0e967413f3851071cc8ace3621bc4205fe8fa79b2abe3d7bf94ff2841f0d47.css">
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+  <title>暑假安排 | Categories</title>
+</head>
+
+<body>
+  <section class="page-header">
+  <h1 class="project-name">
+    Shaymin&rsquo;s Blog
+  </h1>
+  <h2 class="project-tagline">
+    Talk is cheap, show your code.
+  </h2>
+  <nav>
+    
+    
+      
+      
+      
+      
+      <a href="/" class="btn">Blog</a>
+    
+      
+      
+      
+      
+      <a href="/tags/" class="btn">Tags</a>
+    
+      
+      
+      
+      
+      <a href="/about/" class="btn">About</a>
+    
+      
+      
+      
+      
+      <a href="/index.xml" class="btn">RSS</a>
+    
+  </nav>
+</section>
+
+  <section class="main-content">
+    
+  <h1>暑假安排</h1>
+  <div>
+    
+    <strong>Publish date: </strong>2021-06-26
+  </div>
+  
+  
+  <p>2020年是充满挑战的一年，这决定了2021年也是人类历史上注定不平凡的一年，大家懂得了相亲相爱，共同合作的重要性。</p>
+<p>现在，即将进入7月。作为SE魔法一年级的大学生我也即将迎来自己的第一个暑假。名义上的“暑假”其实是学生们自由支配时间的管理符。经过了一年的学习收获了什么呢？也许你的行为是上课认真听讲按照课程安排完成课程考试，并且度过一个轻松愉快的假期。你亦或许是一个有远近的人，开始学习魔法二年级的知识了，由于对于未来的未知充满了疑惑，因此在社区和群聊开始地毯式地询问先人方法。作为学习传统魔法与现代魔法的学生，你可能从始至终都在阅读CS的相关知识，想在AI，Systems，Theory等领域取得非凡的成就，但也有可能是跨领域学科的学者，你对现代魔法的奇妙充满了好奇，你想利用旺盛的精力去学习一些CS知识为自己所用，也有可能你纯粹是为了当一个过路者只要好好跟着老师走，好学生最后也会有一个不错的结果。</p>
+<p>我作为一个对传统魔法与现代魔法充满热满的魔法学徒，自然不是属于后者的类型。在旅行回家的路上，跟我一途还有装着魔法书籍的旅行箱。旅行箱是一个多层的旅行大巴，如果从侧面看，从上到下依次是：SICP，天池ML学习指南，CS:APP，C programming language，以及这一学期没有写完懂得15-445 &amp; CS:APP的lab的纸质notes。
+如果按照任务的优先级排序的话，则是CS：APP以及15-445的lab，然后是SICP以及阿里云天池ML（也许即将饱受花书和西瓜书的折磨）。</p>
+<p>通过这一学期的学习，可以看出来15-445带给人的收获是巨大的，而且还有很大的挖掘空间，我在学习数据库系统的同时还学习了数据库的storage，学习了缓存的LRU replacer以及pool buffer manager；学习了hash table的hash function和hash scheme；学习了线程进程以及并发控制的算法的理论知识。其实一部分知识是来自CSAPP的，因此不能说在一个方向上冲就是明智之举。目前我完成了最基础的、用于上手数据库设计的两个lab，在特别是pool buffer manager的lab分数，gradescope上面我取得了160分的好成绩（满分160分）。这对于我来说是一次很大的激励，我经常对于自己没有花费大量时间而取得的某些成果感到心虚，因此这只能说是激励而不是成功。CSAPP目前才到了chapter3，可以说是毫无进展，很失败，对于这样一本酷似魔法书的启动书籍我不敢怠慢。</p>
+<p>SICP是一本真正意义上的让你入门魔法基础的魔法书，可以说是所有学习魔法的学生的必读书籍。使用Lisp（Scheme）描述而不是晦涩的C++自然是有它的道理在，程序和数据这种单纯的抽象是如何构成魔法元素的？暑假继续阅读SICP，相信会有答案。</p>
+
+  
+
+  
+
+
+
+    <footer class="site-footer">
+  <span class="site-footer-credits">
+    Made with <a href="https://gohugo.io/">Hugo</a>. Themed by <a href="https://github.com/zwbetz-gh/cayman-hugo-theme">Cayman</a>. Deployed to <a href="https://www.netlify.com/">Netlify</a>.
+  </span>
+</footer>
+
+  </section>
+  
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-123456789-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+</body>
+</html>
