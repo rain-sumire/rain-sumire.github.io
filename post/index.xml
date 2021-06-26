@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://rain-sumire.github.io/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Jun 2021 17:44:25 +0800</lastBuildDate><atom:link href="https://rain-sumire.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于魔法</title>
+      <link>https://rain-sumire.github.io/post/%E5%85%B3%E4%BA%8E%E9%AD%94%E6%B3%95/</link>
+      <pubDate>Sat, 26 Jun 2021 17:44:25 +0800</pubDate>
+      
+      <guid>https://rain-sumire.github.io/post/%E5%85%B3%E4%BA%8E%E9%AD%94%E6%B3%95/</guid>
+      <description>看过《哈利·波特》的你，把魔法当成是精神世界里人们打开思想窗口的钥匙，魔法内涵于魔法书籍的字里行间，但也被限定在人的精神构建出来的虚幻世界中。我们把魔法想象成高大上的，只在思想高度上可以触及的抽象事物，也许魔法曾经存在于世，但早已被历史洗刷干净。 我们知道，但我们不肯承认魔法的存在，我们就是那个世界的麻瓜。我们不知道，在如今这个科技发达信息交换紧密的时代，魔法依旧是存在的，在这个复杂的系统环境下，无处不在。
+问题：那么魔法到底是什么？是藏匿在计算机编码背后的底层工作原理吗？还是计算机技术迭代的最终产物？
+任何思维、想法通过非物理的方式转换成现实的都是魔法。 不需要技术迭代， 你如果跟一个人说了一句话， 影响到了对方的行为， 这就是一种魔法。 跟计算机只有直接和间接的区别。
+问题：物理在生活中无处不在，魔法具体体现在哪里？
+古代帝王一句话就能让千万人去送死，这是魔法吗？所有的东西最终当然都有物理媒介。但是概念变成现象的过程， 是一件在物理法则之外的事情。即使中间使用了物理媒介， 其主要媒介依然是某种能理解概念的东西。 传统魔法的媒介因此一直是人心。 而现在才有机器。</description>
+    </item>
+    
+  </channel>
+</rss>
